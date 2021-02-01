@@ -71,10 +71,11 @@ final class RequestManager: RequestManagerProtocol {
         task.resume()
     }
     
-    public func getImageDataFromData(_ data: Data?) -> Data {
-        guard let data = data,
-              let url = URL(da)
-              
+    public func getImageDataFromString(_ url: URL) -> Data {
+        
+        guard let imageData = try? Data(contentsOf: url) else { return Data() }
+        
+        return imageData
     }
     
 }

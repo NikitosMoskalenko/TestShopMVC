@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+ // MARK: - DetailModelProtocol
+
+protocol DetailModelProtocol: Any {
+    var detailData: ProductsDetailModel? { get set }
+}
+
+ // MARK: - DetailModel
+
+struct DetailModel: DetailModelProtocol {
+    
+    var detailData: ProductsDetailModel?
+    
+}
+
