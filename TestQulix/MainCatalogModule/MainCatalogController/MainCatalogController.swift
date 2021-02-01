@@ -36,7 +36,7 @@ class MainCatalogController: UIViewController {
         self.view = mainCatalogView as? UIView
     }
     
-    private func getData() {
+    func getData() {
         mainCatalogView?.checkActiviry(status: .start)
         RequestManager.shared.getProductsList { [weak self] (data) in
             guard let self = self,

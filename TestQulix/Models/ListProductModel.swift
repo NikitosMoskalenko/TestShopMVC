@@ -26,10 +26,10 @@ struct ListProductsModel: Codable, ListProductsModelProtocol {
 
 struct ProductsModel: Codable {
     
-    var productID: String
-    var name: String
-    var price: Int
-    var image: String
+    let productID: String
+    let name: String
+    let price: Int
+    let image: String
 
     enum CodingKeys: String, CodingKey {
         case productID = "product_id"

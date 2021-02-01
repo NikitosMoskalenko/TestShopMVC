@@ -9,7 +9,7 @@ import Foundation
 
  // MARK: - DetailModelProtocol
 
-protocol DetailModelProtocol: Any {
+protocol DetailModelProtocol {
     var detailData: ProductsDetailModel? { get set }
 }
 

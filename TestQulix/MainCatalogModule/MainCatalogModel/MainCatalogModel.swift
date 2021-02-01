@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - MaiNCatalogModelProtocol
 
-protocol MaiNCatalogModelProtocol: Any {
+protocol MaiNCatalogModelProtocol {
     var data: ListProductsModelProtocol? { get set }
 }
 
