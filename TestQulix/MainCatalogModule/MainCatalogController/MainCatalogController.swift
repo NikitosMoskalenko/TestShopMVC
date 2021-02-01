@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainCatalogController.swift
 //  TestQulix
 //
 //  Created by Nikita Moskalenko on 1/31/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainCatalogController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
